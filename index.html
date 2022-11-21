@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-section">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text"  name="search-city" class="search-input" placeholder="Input your city...">
+            </div>
+            <p class="city-name">Thành phố</p>
+            <p class="weather-state">Trạng thái</p>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="weather-icon">
+            <p class="temperature"><span class="temperature-child">0</span></p>
+        </div>
+        <div class="details-section">
+            <div class="details-container">
+                <div class="item">
+                    <div class="title">MT mọc</div>
+                    <div class="value"><span class="sunrise"></span></div>
+                </div>
+                <div class="item">
+                    <div class="title">MT lặn</div>
+                    <div class="value"><span class="sunset"></span></div>
+                </div>
+                <div class="item">
+                    <div class="title">Độ ẩm</div>
+                    <div class="value"><span class="humidity"></span></div>
+                </div>
+                <div class="item">
+                    <div class="title">Sức gió</div>
+                    <div class="value"><span class="wind"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="moment.js"></script>
+</html>

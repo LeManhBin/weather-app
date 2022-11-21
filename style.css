@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #333;
+}
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 400px;
+    border-radius: 20px;
+}
+.main-section {
+    padding-bottom: 30px;
+    color: #fff;
+}
+.search-box {
+    position: relative;
+    border-bottom: 1px solid #333;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 10px;
+}
+.search-box i {
+    position: absolute;
+    margin-right: 5px;
+    color: #000;
+    top: 30%;
+    right: 5%;
+}
+.search-box input {
+    border: none;
+    outline: none;
+}
+.city-name {
+    padding-top: 80px;
+    font-size: 30px;
+}
+.temperature {
+    font-size: 80px;
+    position: relative;
+    line-height: 1;
+}
+.temperature-child{
+    position: relative;
+}
+.temperature-child::after {
+    content: 'o';
+    font-size: 30px;
+    position: absolute;
+}
+.details-section {
+    border-top: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: #fff;
+}
+.details-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.details-container .title {
+    font-size: 15px;
+}
